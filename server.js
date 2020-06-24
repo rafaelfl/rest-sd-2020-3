@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-const porta = process.env.PORT || 2000;
+const porta = process.env.PORT || 80;
 
 var listaDeCarros = [];
 
